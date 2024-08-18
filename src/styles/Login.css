@@ -1,0 +1,43 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+  }
+  
+  .login-container h2 {
+    color: #ffffff;
+    font-size: 2.5rem;  /* 텍스트 크기 조정 */
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* 필드 중앙 정렬 */
+  }
+  
+  .login-container label {
+    color: white;
+    margin: 10px 0 5px;  /* 위쪽 간격 추가 */
+  }
+  
+  .login-container input {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 250px;  /* 입력 필드 넓이 조정 */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-container button {
+    padding: 10px;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100px;  /* 버튼 넓이 조정 */
+  }
+  
