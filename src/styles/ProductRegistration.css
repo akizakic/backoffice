@@ -1,0 +1,47 @@
+.product-registration-container {
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .product-registration-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  .product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .product-form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-form input[type="text"],
+  .product-form input[type="number"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-form input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  .product-form button {
+    padding: 10px;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  

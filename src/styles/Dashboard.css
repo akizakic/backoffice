@@ -30,6 +30,7 @@
     flex: 1;
     padding: 20px;
     background-color: #ffffff;
+    overflow-y: auto;
   }
   
   .dashboard-content h2 {
@@ -41,6 +42,7 @@
   .product-table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 30px;
   }
   
   .product-table th, .product-table td {
@@ -56,5 +58,41 @@
   .empty-row {
     text-align: center;
     color: #868e96;
+  }
+  
+  .product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .product-form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-form input[type="text"],
+  .product-form input[type="number"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-form input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  .product-form button {
+    padding: 10px;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
   }
   
